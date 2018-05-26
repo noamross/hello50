@@ -1,0 +1,67 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "hello50",
+  "description": "It does some stuff",
+  "name": "hello50: It does some stuff",
+  "codeRepository": "https://github.com/noamross/hello50",
+  "issueTracker": "https://github.com/noamross/hello50/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.4.4",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.4.4 (2018-03-15)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Noam",
+      "familyName": "Ross",
+      "email": "noam.ross@gmail.com",
+      "@id": "https://orcid.org/0000-0002-2136-0000"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Noam",
+      "familyName": "Ross",
+      "email": "noam.ross@gmail.com",
+      "@id": "https://orcid.org/0000-0002-2136-0000"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "roxygen2",
+      "name": "roxygen2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=roxygen2"
+    }
+  ],
+  "softwareRequirements": [],
+  "releaseNotes": "https://github.com/noamross/hello50/blob/master/NEWS.md",
+  "readme": "https://github.com/noamross/hello50/blob/master/README.md",
+  "fileSize": "1.738KB",
+  "keywords": "r"
+}
